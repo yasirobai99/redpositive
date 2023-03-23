@@ -45,7 +45,7 @@ const Table = ({ users, setUsers, handleDeleteBtn }) => {
                 <div >
                     <label htmlFor="pop-up-form" className="btn btn-outline btn-info modal-button mr-3">Add New Entry</label>
 
-                    <button className="btn btn-outline btn-info">Send</button>
+                    <button className="btn btn-outline btn-info onSubmit={sendEmail}">Send </button>
                 </div>
                 <div>
                     <select className="select w-full select-info max-w-xs" onChange={(e) => setSortType(e.target.value)}>
